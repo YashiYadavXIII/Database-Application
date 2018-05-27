@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+  
+    tools:showIn="@layout/app_bar_main"
+    tools:context="com.example.studentdetails.AcademicDetails"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/roll"
+        android:layout_alignParentTop="true"
+        android:hint="RollNo"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/sub"
+        android:hint="Subject"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/sem"
+        android:hint="Semester"
+        tools:ignore="HardcodedText" />
+    
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/t1marks"
+        android:hint="T1Marks"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/t2marks"
+        android:hint="T2Marks"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Save"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save" />
+
+    <Button
+        android:text="Display"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display"
+        tools:ignore="HardcodedText" />
+
+ <Button
+        android:text="Next Activity"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        tools:ignore="HardcodedText" />
+    
+</LinearLayout>
